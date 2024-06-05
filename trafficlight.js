@@ -10,3 +10,5 @@ if(light==="red"){
 }else if(light==="green"){
     console.log("you can go now ..");
 }
+//truthy and falsy value
+// false 0 -0 on "" null undefined NaN this all values are falsy and remaing are true values
