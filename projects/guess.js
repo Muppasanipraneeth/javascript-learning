@@ -9,6 +9,9 @@ while(true){
        alert("you quited");
         break;
     }
+    if(roll!="quit" && roll!="roll"){
+        console.log(" enter the correct input");
+    }
 
     guess=prompt("guess the number");
 
