@@ -1,0 +1,11 @@
+div{
+    background-color: black;
+    height: 200px;
+    width: 400px;
+}
+li{
+    background-color: yellow;
+}
+ol{
+    background-color: red;
+}
