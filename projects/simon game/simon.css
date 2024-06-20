@@ -34,6 +34,9 @@ justify-content:center;
 .flash{
     background-color: white;
 }
-.userfalsh{
+.userflash{
     background-color: green;
+}
+.alert{
+    background-color: red;
 }
