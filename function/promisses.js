@@ -45,15 +45,18 @@ return new Promise((reslove,reject)=>{
 })
 }
 // console.log(saveDB("data"));
-saveDB("data").then(()=>{
+saveDB("data").then((result)=>{
     console.log(" resloved");
+    console.log(result);
     // saveDB("hello").then(()=>{
     //     console.log(" data 2 is saved");
     // })
     return saveDB("data");
-}).then(()=>{
+}).then((result)=>{
+    console.log(result);
     console.log(" data 2 is sloved");
 })
 .catch(()=>{
+    console.log(err);
     console.log("rejected");
 })
